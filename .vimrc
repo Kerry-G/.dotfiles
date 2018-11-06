@@ -5,12 +5,13 @@ syntax enable       " enable syntax processing
 colorscheme badwolf
 " }}}
 " Spaces & Tabs {{{
-set tabstop=4       " number of visual spaces per tab
-set softtabstop=4   " number of spaces in tab when editing
+set tabstop=2       " number of visual spaces per tab
+set softtabstop=2   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 filetype indent on  " load filetype-specific indent files
 set modelines=1
 set autoindent
+set nowrap
 " }}}
 " UI {{{
 set number          " show line numbers
@@ -19,6 +20,7 @@ set cursorline      " high current line
 set wildmenu        " visual autocomplete
 set lazyredraw      " redraw only when we need to
 set showmatch       " highlight matching [{()}]
+set ruler           " Always show info along bottom
 " }}}
 " Searching {{{
 set incsearch       " search as characters are entered
