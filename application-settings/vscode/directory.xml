@@ -1,0 +1,6 @@
+<directory>
+    <windows>%APPDATA%\Code\User\settings.json</windows>
+    <linux>$HOME/.config/Code/User/settings.json</linux>
+</directory>
+
+

@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 1,
+    "git.ignoreMissingGitWarning": true,
+    "editor.fontFamily": "'IBM Plex Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "jest.autoEnable": false,
+    "jest.runAllTestsFirst": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabCompletion": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line-thin",
+    "workbench.colorTheme": "Monokai"
+}
