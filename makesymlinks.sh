@@ -6,7 +6,7 @@
 
 ############ Variables
 
-dir=~/.dotfiles
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 olddir=~/.dotfiles_old
 files="bashrc vimrc gitconfig"
 
@@ -30,4 +30,4 @@ for file in $files; do
 	ln -s $dir/.$file ~/.$file
 done
 
-echo "Done. Start programming now." 
+# echo "Done. Start programming now." 
