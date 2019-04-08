@@ -2,6 +2,11 @@
 
 echo Creating a symlink for vscode settings
 
-ln -s ~/.dotfiles/application-settings/vscode/settings.json ~/.config/Code/User/settings.json 
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+
+echo $dir
+
+rm ~/.config/Code/User/settings.json 
+ln -s $dir/settings.json ~/.config/Code/User/settings.json 
 
 

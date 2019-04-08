@@ -10,5 +10,6 @@
     "editor.tabCompletion": "on",
     "editor.cursorBlinking": "expand",
     "editor.cursorStyle": "line-thin",
-    "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Monokai Pro",
+    "editor.fontSize": 12
 }
